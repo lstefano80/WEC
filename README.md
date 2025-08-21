@@ -1,7 +1,7 @@
 # WEC
 Examples of working with WEC data.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/f1datajunkie/WEC/master?filepath=notebooks)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lstefano80/WEC/master/?urlpath=%2Fdoc%2Ftree%2Fnotebooks)
 
 Notebooks include:
 
