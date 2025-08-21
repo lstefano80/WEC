@@ -17,7 +17,7 @@ qgrid
 seaborn
 statsmodels
 
-sklearn
+scikit-learn
 
 #Piecewise linear models
 pwlf
