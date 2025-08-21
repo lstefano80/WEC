@@ -1,3 +1,5 @@
+set -euxo pipefail
+
 mkdir -p .jupyter
 mkdir -p markdown
 mkdir -p notebooks
