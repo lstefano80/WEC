@@ -1,4 +1,6 @@
-set -euxo pipefail
+
+
+#!/usr/bin/env bash
 
 mkdir -p .jupyter
 mkdir -p markdown
@@ -6,7 +8,3 @@ mkdir -p notebooks
 
 echo 'c.NotebookApp.contents_manager_class = "jupytext.TextFileContentsManager"' >> .jupyter/jupyter_notebook_config.py
 echo 'c.ContentsManager.default_jupytext_formats = "notebooks//ipynb,markdown//md"' >> .jupyter/jupyter_notebook_config.py
-
-
-#Enable qgrid
-jupyter nbextension enable --py --sys-prefix qgrid
