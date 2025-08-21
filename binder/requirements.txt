@@ -1,20 +1,25 @@
-# Core scientific stack
+jupytext
+
+matplotlib
 numpy
 scipy
 pandas
-matplotlib
-seaborn
-statsmodels
-scikit-learn
-pwlf
-tqdm
 
-# Interactive/plotting
+#plotly is a rich HTML5 charting library
 plotly
+#Cufflinks providings pandas bindings for pandas dataframes
 cufflinks
 
-# Jupyter and notebook extensions
-notebook<7
-jupyterlab<3
-qgrid==1.3.1
-jupytext
+#We need to enable the qgrid extension in postBuild in order to display it
+qgrid
+
+#Stats packages
+seaborn
+statsmodels
+
+sklearn
+
+#Piecewise linear models
+pwlf
+
+tqdm
